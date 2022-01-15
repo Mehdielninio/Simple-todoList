@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    height: 0px;
+    box-sizing: border-box;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 19%, rgba(105,89,219,1) 35%, rgba(70,252,155,1) 98%);}
+.input{
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border-radius: 12px;
+    padding-left: 12px;
+}
+.submit{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.entery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newtodo{
+    width: 350px;
+    height: 35px;
+    background-color: white;
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-right: 180px;
+    border-radius: 12px;
+    padding-left: 12px;
+}
+.li-item{
+flex: 1;
+}
+.completedbtn{
+    height: 35px;
+    background-color: green;
+}
+.deletedbtn{
+    height: 35px;
+    background-color: red;
+}
+.finish{
+    opacity: 0.3;
+    text-decoration: line-through;
+    transition: all 1s ease-in-out;
+}
+.select{
+    margin-left: 20px;
+    
+}
+.filter-todos{
+    height:20px;
+    
+}
+.completed{
+    color: green;
+    text-decoration: line-through;
+}
+.uncompleted{
+    color: red;
+}
