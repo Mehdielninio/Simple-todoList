@@ -3,7 +3,25 @@ body{
     height: 0px;
     box-sizing: border-box;
     background: rgb(63,94,251);
-    background: linear-gradient(90deg, rgba(63,94,251,1) 19%, rgba(105,89,219,1) 35%, rgba(70,252,155,1) 98%);}
+    background: linear-gradient(90deg, rgba(63,94,251,1) 19%, rgba(105,89,219,1) 35%, rgba(70,252,155,1) 98%);
+}
+
+.entery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
 .input{
     height: 30px;
     width: 300px;
@@ -17,20 +35,7 @@ body{
     border-radius: 50%;
     margin-left: 5px;
 }
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
-}
-.entery{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
+
 .todo-container{
     display: flex;
     align-items: center;
